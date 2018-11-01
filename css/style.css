@@ -1,0 +1,640 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.container2{
+    max-width: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container3{
+    max-width: 770px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* start header area */
+header{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(../images/header-bg.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 120px;
+    
+}
+
+.header-top{
+    padding-top: 40px;
+    overflow: hidden;
+    margin-bottom: 160px;
+}
+
+.logo{
+    width: 60%;
+    float: left;
+}
+
+nav{
+    width: 40%;
+    float: right;
+    padding-top: 8px;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 28px;
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'brandon-grotesque-regular';
+    transition: color 0.2s;
+}
+
+nav ul li a:hover{
+    color: #999999;
+}
+
+header .box{
+    width: 720px;
+    margin: 0 auto;
+    
+}
+
+header .box h2{
+    font-size: 32px;
+    text-align: center;
+    font-family: 'brandon-grotesque-light';
+    margin-bottom: 50px;
+}
+
+header .box h1{
+    font-family: 'brandon-grotesque-bold';
+    font-size: 66px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+header .box button{
+    display: block;
+    width: 235px;
+    margin: 0 auto;
+    font-size: 23px;
+    font-family: 'brandon-grotesque-bold';
+    background-color: transparent;
+    color: #fff;
+    padding: 15px 0;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    outline: 0;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+header .box button:hover{
+    background: #999999;
+    border-color:#999999 ;
+}
+
+/* end header area */
+
+
+/* start service area */
+.services{
+    padding-top: 100px;
+}
+
+.webdevelopment, .branding{
+    margin-bottom: 180px;
+    overflow: hidden;
+}
+
+.web-box{
+    width: 600px;
+    margin-right: 25px;
+    float: left;
+    
+}
+
+h3{
+    font-family: 'brandon-grotesque-light';
+    font-size: 60px;
+    color: #222222;
+    margin-bottom: 35px;
+}
+
+.bold{
+    font-family: 'brandon-grotesque-bold';
+}
+
+.web-box p{
+    font-size: 18px;
+    color: #adadad;
+    font-family: 'brandon-grotesque-regular';
+}
+
+.web-box p:last-child{
+    margin-top: 40px;
+}
+
+.webdevelopment img{
+    padding-top: 30px;
+    width: 225px;
+}
+
+.brand-box{
+    width: 585px;
+    margin-left: 40px;
+    float: right;
+    
+}
+
+.branding img{
+    padding-top: 40px;
+    width: 225px;
+}
+
+
+.brand-box h3{
+    font-family: 'brandon-grotesque-light';
+    font-size: 60px;
+    color: #222222;
+    margin-bottom: 35px;
+}
+
+.brand-box h3 .bold{
+    font-family: 'brandon-grotesque-bold';
+}
+
+.brand-box p{
+    font-size: 18px;
+    color: #adadad;
+    font-family: 'brandon-grotesque-regular';
+}
+
+.brand-box p:last-child{
+    margin-top: 35px;
+}
+
+.skills{
+    overflow: hidden;
+    margin-bottom: 140px;
+}
+
+.branding-identity{
+    width: 40%;
+    margin-right: 20%;
+    float: left;
+}
+
+.branding-identity:nth-child(even){
+    margin-right: 0;
+    margin-bottom: 45px;
+}
+
+.icon{
+    width: 20%;
+    margin-right: 5%;
+    float: left;
+    margin-top: 5px;
+}
+
+.identity{
+    width: 75%;
+    float: left;
+}
+
+i.fa-male{
+    height: 60px;
+    width: 60px;
+    background: #000;
+    border-radius: 50%;
+    font-size: 40px;
+    padding: 9px 23px;;
+    color: #fff;
+    font-weight: bold;
+}
+
+i.fa-chrome{
+     height: 60px;
+    width: 60px;
+    background: #000;
+    border-radius: 50%;
+    font-size: 40px;
+    padding: 9px 12px;;
+    color: #fff;
+    font-weight: bold;
+}
+
+i.fa-tablet-alt{
+     height: 60px;
+    width: 60px;
+    background: #000;
+    border-radius: 50%;
+    font-size: 35px;
+    padding: 11px 14px;
+    color: #fff;
+    font-weight: bold;
+}
+
+i.fa-video{
+     height: 60px;
+    width: 60px;
+    background: #000;
+    border-radius: 50%;
+    font-size: 35px;
+    padding: 12px 11px;
+    color: #fff;
+    font-weight: bold;
+}
+
+i.fa-star{
+     height: 60px;
+    width: 60px;
+    background: #000;
+    border-radius: 50%;
+    font-size: 35px;
+    padding: 12px 11px;
+    color: #fff;
+    font-weight: bold;
+}
+
+i.fa-camera{
+     height: 60px;
+    width: 60px;
+    background: #000;
+    border-radius: 50%;
+    font-size: 35px;
+    padding: 12px 13px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.identity h4{
+    font-size: 22px;
+    font-family: 'brandon-grotesque-medium';
+    margin-bottom: 5px;
+}
+
+.identity p{
+    font-size: 18px;
+    font-family: 'brandon-grotesque-regular';
+    color: #9b9b9b;
+}
+
+i:hover{
+    background: #7690C5;
+}
+
+/* start clients area */
+
+.clients{
+    margin-bottom: 130px;
+}
+
+.title{
+    margin-bottom: 50px;
+}
+
+.title h3{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.title p{
+    font-size: 22px;
+    font-family: 'brandon-grotesque-regular';
+    color: #9b9b9b;
+    text-align: center;
+}
+
+.clients1 img{
+    width: 20%;
+    margin-right: 10%;
+    float: left;
+}
+
+.clients1 .right {
+    width: 70%;
+    float: left;
+    padding-top: 50px;
+    padding-right: 6%;
+}
+
+.clients1 .right p{
+    font-size: 25px;
+    font-family: 'brandon-grotesque-regular';
+    color: #9b9b9b;
+    margin-bottom: 15px;
+}
+
+.clients1 .right p.cl{
+    font-size: 25px;
+    color: #7f97c9;
+    font-family: 'brandon-grotesque-regular';
+}
+
+.cls{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+
+
+.clients2 .left {
+    width: 70%;
+    float: left;
+    padding-top: 50px;
+    margin-right: 10%;
+    padding-left: 6%;
+}
+
+.clients2 .left p {
+    font-size: 25px;
+    font-family: brandon-grotesque-regular;
+    color: rgb(155, 155, 155);
+    margin-bottom: 15px;
+}
+
+.clients2 .left p.cl{
+    font-size: 25px;
+    color: #7f97c9;
+    font-family: 'brandon-grotesque-regular';
+}
+
+.clients2 img {
+    width: 20%;
+    float: left;
+}
+
+/* end clients area */
+
+/* start logos area */
+
+.logos{
+    margin-bottom: 50px;
+}
+
+
+.logos ul li{
+    float: left;
+    margin: 0 20px;
+    list-style: none;
+}
+
+.logos ul li:last-child{
+    margin: 0;
+}
+
+/* end logos area */
+/* end service area */
+
+/* start team area */
+
+.team{
+    background: #000;
+    padding: 80px 0;
+}
+
+.team-tile{
+    margin-bottom: 60px;
+}
+
+.team-tile h3{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.white{
+    font-family: 'brandon-grotesque-bold';
+}
+
+
+.team-tile p{
+    color: #fff;
+    text-align: center;
+    font-family: 'brandon-grotesque-ligt';
+    font-size: 22px;
+}
+
+.single-team{
+    width: 32%;
+    margin-right: 2%;
+    float: left;
+}
+
+.single-team:last-child{
+    margin-right: 0;
+}
+
+.name{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'brandon-grotesque-bold';
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+p.title{
+    color: #fff;
+    font-family: 'brandon-grotesque-regular';
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.single-team ul{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.single-team ul li{
+    display: inline-block;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.single-team ul li i{
+    font-size: 16px;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    padding-top: 5px;
+}
+
+.description{
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+.description p{
+    line-height: 150%;
+    font-family: 'brandon-grotesque-regular';
+    font-size: 20px;
+}
+
+.single-team ul li i.fa-twitter:hover{
+    background: #87a0d2;
+    border-color: #87a0d2;
+}
+
+.single-team ul li i.fa-facebook-f:hover{
+    background: #3B5998;
+    border-color: #3B5998;
+}
+
+.single-team ul li i.fa-pinterest-p:hover{
+    background: #CB2028;
+    border-color: #CB2028;
+}
+
+.single-team ul li i.fa-google-plus-g:hover{
+    background: #CB2028;
+    border-color: #CB2028;
+}
+
+/* end team area */
+
+/* start contact_us area */
+.contact_us{
+	padding:60px 0px;
+	background: #7690c5;
+}
+.contact_content{
+	width: 55%;
+	float: left;
+	margin-right: 5%;
+}
+.content_text{}
+.content_text h1{
+	font-size: 48px;
+	font-weight: 300;
+	color:#fff;
+}
+.content_text p {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	padding-top: 10px;
+	line-height: 24px;
+    font-family: 'brandon-grotesque-regular';
+}
+.Contact_1 {
+	width: 45%;
+	float: left;
+	padding-top: 40px;
+}
+.all_icons{
+	overflow: hidden;
+}
+.all_icon{
+	width: 20%;
+	float: left;
+}
+.all_text{
+	float: left;
+	width: 80%;
+}
+.all_text p{
+	font-size: 18px;
+	color:#fff;
+	padding-top: 2px;
+    font-family: 'brandon-grotesque-regular';
+}
+.all_icon .fa-mobile-alt,.all_icon .fa-envelope,.all_icon .fa-twitter,
+.all_icon .fa-facebook-f,.all_icon .fa-google-plus-g,
+.all_icon .fa-pinterest-p{
+	font-size: 25px;
+	color:#fff;
+}
+.contact_form{
+	width: 40%;
+	float: left;
+	margin-top: 9px;
+}
+.form{
+}
+.form input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.form input[type="text"], .form input[type="email"], .form textarea{
+	background: #fff;
+	border: none;
+	height: 40px;
+	color: #bbbbbb;
+	font-size: 16px;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+.form textarea{
+	width: 100%;
+	height: 200px;
+	padding-top: 10px;
+}
+.form input[type="submit"] {
+	width: 20%;
+	border: none;
+	padding: 12px 0px;
+	background: #fff;
+	color: #bbb;
+	margin-top: 20px;
+	font-size: 16px;
+	margin-bottom: 0px;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+.form input[type="submit"]:hover{
+	cursor: pointer;
+	color:#fff;
+	background: #87a0d2;
+}
+/* end contact_us area */
+
+/* start footer area */
+footer{
+    background: #7690c5;
+    color: #fff;
+    
+    text-align: center;
+    
+}
+
+footer .container{
+    border-top: 1px solid #87a0d2;
+}
+
+footer p{
+    padding: 30px 0;
+    font-size: 16px;
+    font-family: 'brandon-grotesque-regular';
+    
+}
+/* end footer area */

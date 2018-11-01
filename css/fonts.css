@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: 'brandon-grotesque-bold';
+    src: url(../fonts/brandon-grotesque-bold.ttf);
+}
+
+@font-face {
+    font-family: 'brandon-grotesque-light';
+    src: url(../fonts/brandon-grotesque-light.ttf);
+}
+
+@font-face {
+    font-family: 'brandon-grotesque-medium';
+    src: url(../fonts/brandon-grotesque-medium.ttf);
+}
+
+@font-face {
+    font-family: 'brandon-grotesque-regular';
+    src: url(../fonts/brandon-grotesque-Regular.otf);
+}
